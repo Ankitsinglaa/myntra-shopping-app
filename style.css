@@ -1,0 +1,70 @@
+html ,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    height: 80px;
+}
+
+
+.left img{
+    width:50px;
+    height: 50px;
+}
+.container{
+    padding:0 0vw;
+    margin: auto;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 17px 28px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.section1{
+    background:white;
+    /* height: 122vh; */
+}
+.homeImg{
+    width: 100% ;
+}
+.itemImg{
+    width: 16.5vw;
+ 
+}
+
+footer ul li{
+    list-style: none;
+    color: #282c3f;
+    /* font-weight: 700; */
+    font-size: 0.80rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.desktop-gyanContainer {
+    color:gray;
+    margin: 5%;
+   text-align: justify;
+}
+a{
+    color:grey;
+}
+h{
+    color: #535766!important;
+}
+li strong{
+    color: #535766!important;
+}
